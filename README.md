@@ -28,6 +28,8 @@ That's it. That's the whole product.
 | `GET /insult` | Same thing, if you like being explicit |
 | `GET /insult/text` | Plain text — for bots, terminals, and people who don't deserve JSON |
 | `GET /count` | How many insults are loaded and ready to ruin your day |
+| `GET /i` | Embeddable HTML with Open Graph tags — random insult |
+| `GET /i/{slug}` | Embeddable HTML — same slug always returns the same insult |
 
 ### Response format
 
@@ -40,6 +42,16 @@ That's it. That's the whole product.
 ```
 I'd agree with you, but then we'd both be wrong.
 ```
+
+### Embeddable links
+
+Paste in Slack, Discord, Twitter, or anywhere that unfurls links:
+
+```
+https://insult-as-a-service.naas-tg.workers.dev/i/hey-john
+```
+
+Shows a rich preview with title **"You've been roasted"** and a witty insult as the description. Change the slug to get a different insult — same slug always gives the same one, so the preview stays consistent after caching.
 
 ## The Collection
 
