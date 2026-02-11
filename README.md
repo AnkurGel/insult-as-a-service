@@ -9,7 +9,7 @@ Inspired by [No-as-a-Service](https://github.com/hotheadhacker/no-as-a-service).
 ## Try it
 
 ```bash
-curl https://insult-as-a-service.naas-tg.workers.dev/
+curl https://insult.ankurgoel.com/
 ```
 
 ```json
@@ -48,7 +48,7 @@ I'd agree with you, but then we'd both be wrong.
 Paste in Slack, Discord, Twitter, or anywhere that unfurls links:
 
 ```
-https://insult-as-a-service.naas-tg.workers.dev/i/hey-john
+https://insult.ankurgoel.com/i/hey-john
 ```
 
 Shows a rich preview with title **"You've been roasted"** and a witty insult as the description. Change the slug to get a different insult — same slug always gives the same one, so the preview stays consistent after caching.

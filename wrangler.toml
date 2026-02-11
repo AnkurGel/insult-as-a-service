@@ -1,3 +1,8 @@
 name = "insult-as-a-service"
 main = "src/index.ts"
 compatibility_date = "2024-12-01"
+
+routes = [
+  { pattern = "insult.ankurgoel.com", custom_domain = true }
+]
+workers_dev = true
