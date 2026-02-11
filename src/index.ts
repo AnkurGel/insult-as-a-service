@@ -15,14 +15,14 @@ function embedHtml(insult: string, baseUrl: string): string {
 <html>
 <head>
   <meta charset="utf-8">
-  <meta property="og:title" content="You've been roasted">
-  <meta property="og:description" content="${insult.replace(/"/g, "&quot;")}">
+  <meta property="og:title" content="${insult.replace(/"/g, "&quot;")}">
+  <meta property="og:description" content="insult.ankurgoel.com">
   <meta property="og:site_name" content="Insult as a Service">
   <meta property="og:url" content="${baseUrl}">
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="You've been roasted">
-  <meta name="twitter:description" content="${insult.replace(/"/g, "&quot;")}">
-  <title>You've been roasted</title>
+  <meta name="twitter:title" content="${insult.replace(/"/g, "&quot;")}">
+  <meta name="twitter:description" content="insult.ankurgoel.com">
+  <title>Insult as a Service</title>
 </head>
 <body>
   <p>${insult.replace(/</g, "&lt;").replace(/>/g, "&gt;")}</p>
