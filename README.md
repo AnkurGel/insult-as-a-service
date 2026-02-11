@@ -56,7 +56,7 @@ Sources range from Reddit threads to Churchill, Oscar Wilde, and Groucho Marx. S
 Runs on [Cloudflare Workers](https://workers.cloudflare.com/) (free tier).
 
 ```bash
-git clone <this-repo>
+git clone git@github.com:AnkurGel/insult-as-a-service.git
 cd insult-as-a-service
 npm install
 npm run dev       # local dev at localhost:8787
