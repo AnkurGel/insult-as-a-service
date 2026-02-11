@@ -1,0 +1,36 @@
+{
+  "scouted": [
+    {
+      "url": "https://old.reddit.com/r/AskIndianWomen/comments/1pt1hds/whats_an_insult_so_intelligent_you_dont_realize/",
+      "description": "r/AskIndianWomen - What's an insult so intelligent you don't realize you've been roasted until 3 thoughts later?",
+      "date_scouted": "2025-02-11",
+      "insults_pulled": 15
+    },
+    {
+      "url": "https://www.reddit.com/r/AskReddit/comments/1ppmvnz/whats_the_insults_so_intelligent_you_dont_realise/",
+      "description": "r/AskReddit - What's the insults so intelligent you don't realise?",
+      "date_scouted": "2025-02-11",
+      "insults_pulled": 0,
+      "notes": "Could not fetch directly, but similar insults found via web search"
+    },
+    {
+      "url": "https://github.com/hotheadhacker/no-as-a-service",
+      "description": "Inspiration project - No-as-a-Service by hotheadhacker",
+      "date_scouted": "2025-02-11",
+      "insults_pulled": 0,
+      "notes": "Project structure reference only"
+    },
+    {
+      "url": "web_search:clever_insults_backhanded_compliments",
+      "description": "Web search across multiple listicles for clever/witty insults, backhanded compliments, famous wit (Churchill, Wilde, Groucho Marx)",
+      "date_scouted": "2025-02-11",
+      "insults_pulled": 85
+    }
+  ],
+  "not_yet_scouted": [
+    "https://www.reddit.com/r/AskReddit/comments/1ppmvnz/whats_the_insults_so_intelligent_you_dont_realise/",
+    "https://www.reddit.com/r/rareinsults/top/?t=all",
+    "https://www.reddit.com/r/clevercomebacks/top/?t=all",
+    "https://www.reddit.com/r/MurderedByWords/top/?t=all"
+  ]
+}
